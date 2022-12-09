@@ -35,3 +35,13 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1670550851135	Marionette	INFO	Stopped listening on port 51964
 [Parent 56244, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
 [Parent 56244, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1670551643992	geckodriver	INFO	Listening on 127.0.0.1:64263
+1670551647027	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofiley6onFB"
+1670551647232	Marionette	INFO	Marionette enabled
+1670551647235	Marionette	INFO	Listening on port 64275
+Read port: 64275
+1670551647300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofiley6onFB\\search.json.mozlz4", (void 0)))
+1670551648523	Marionette	INFO	Stopped listening on port 64275
+[Parent 65020, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+[Parent 65020, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
