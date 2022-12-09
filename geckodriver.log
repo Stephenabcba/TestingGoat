@@ -9,3 +9,29 @@ Read port: 59355
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilecSX5ic\\search.json.mozlz4", (void 0)))
 1670548292971	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1670548334874	Marionette	INFO	Stopped listening on port 59355
+1670548749300	geckodriver	INFO	Listening on 127.0.0.1:59614
+1670548752347	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilegkAMpZ"
+1670548752542	Marionette	INFO	Marionette enabled
+1670548752545	Marionette	INFO	Listening on port 59626
+Read port: 59626
+1670548752605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilegkAMpZ\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1670550853009	Marionette	INFO	Stopped listening on port 59626
+0550809970	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilehTGpZK"
+1670550810159	Marionette	INFO	Marionette enabled
+1670550810162	Marionette	INFO	Listening on port 51929
+Read port: 51929
+1670550810219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilehTGpZK\\search.json.mozlz4", (void 0)))
+1670550811418	Marionette	INFO	Stopped listening on port 51929
+1670550832201	geckodriver	INFO	Listening on 127.0.0.1:51952
+1670550835245	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileR5yHXh"
+1670550835433	Marionette	INFO	Marionette enabled
+1670550835436	Marionette	INFO	Listening on port 51964
+Read port: 51964
+1670550835493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileR5yHXh\\search.json.mozlz4", (void 0)))
+1670550851135	Marionette	INFO	Stopped listening on port 51964
+[Parent 56244, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+[Parent 56244, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
